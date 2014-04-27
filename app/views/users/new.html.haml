@@ -1,0 +1,7 @@
+= semantic_form_for @user do |f|
+  = f.input :name
+  = f.input :email
+  = label_tag :password
+  = f.password_field :password
+  = f.input :password_confirmation, :as => :password
+  = f.submit :value => "Create User"

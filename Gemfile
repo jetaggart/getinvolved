@@ -12,7 +12,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'spring',        group: :development
 gem 'bcrypt', '~> 3.1.7'
-gem 'debugger', group: [:development, :test]
+gem 'haml'
+gem 'bootstrap-sass'
+gem 'formtastic-bootstrap'
+
+group :development, :test do
+  gem 'debugger'
+end
 
 group :test do
   gem "minitest-rails"
