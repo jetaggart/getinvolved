@@ -1,27 +1,26 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-ruby '2.1.1'
+ruby "2.1.1"
 
-gem 'rails', '4.1.0'
-gem 'sqlite3'
-gem 'sass-rails', '~> 4.0.3'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
-gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'spring',        group: :development
-gem 'bcrypt', '~> 3.1.7'
-gem 'haml'
-gem 'bootstrap-sass'
-gem 'formtastic-bootstrap'
+gem "rails", "4.1.0"
+gem "sqlite3"
+gem "sass-rails", "~> 4.0.3"
+gem "uglifier", ">= 1.3.0"
+gem "coffee-rails", "~> 4.0.0"
+gem "jquery-rails"
+gem "turbolinks"
+gem "jbuilder", "~> 2.0"
+gem "spring",        group: :development
+gem "bcrypt", "~> 3.1.7"
+gem "haml"
+gem "bootstrap-sass"
+gem "formtastic-bootstrap"
 
 group :development, :test do
-  gem 'debugger'
+  gem "debugger"
 end
 
 group :test do
-  gem "minitest-rails"
-  gem "minitest-rails-capybara"
-  gem "minitest-reporters"
+  gem "rspec-rails"
+  gem "capybara"
 end

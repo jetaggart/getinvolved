@@ -1,7 +1,7 @@
-require "test_helper"
+require "spec_helper"
 
-class CreatingAStoryTest < Capybara::Rails::TestCase
-  test "a visitor can create a story" do
+feature "Creating a Story" do
+  scenario "a visitor creating a story" do
     visit root_path
 
     click_on "Begin A Story"
@@ -17,6 +17,6 @@ class CreatingAStoryTest < Capybara::Rails::TestCase
 
     click_on "Create Story"
 
-    assert_content "Story has been created"
+    expect(page).to have_content "Story has been created"
   end
 end
