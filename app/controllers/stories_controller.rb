@@ -5,10 +5,14 @@ class StoriesController < ApplicationController
 
   def create
     Story.create!(new_story_params)
-    redirect_to '/', :notice => "Story has been created"
+    redirect_to stories_path, :notice => "Story has been created"
   end
 
   def new_story_params
     params.require(:story).permit(:description)
+  end
+
+  def index
+    @stories = Story.all
   end
 end

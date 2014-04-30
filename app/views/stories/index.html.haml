@@ -1,3 +1,15 @@
-= semantic_form_for @story do |f|
-  = f.input :description, :label => "Describe your story"
-  = f.submit :value => "Create Story"
+%h1 Stories Index
+
+%table
+  %tr
+    %th ID
+    %th Description
+
+  - for story in @stories
+    %tr
+      %td
+        = story.id
+      %td
+        = story.description
+
+
