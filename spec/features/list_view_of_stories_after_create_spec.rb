@@ -13,6 +13,7 @@ feature "Creating a Story" do
 
     click_on "Create User"
 
+    fill_in "Name your story", :with=> "Best Story Title Ever"
     fill_in "Describe your story", :with => "After creating this, I want to see the stories list view."
 
     click_on "Create Story"
