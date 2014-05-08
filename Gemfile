@@ -10,13 +10,14 @@ gem "coffee-rails", "~> 4.0.0"
 gem "jquery-rails"
 gem "turbolinks"
 gem "jbuilder", "~> 2.0"
-gem "spring",        group: :development
 gem "bcrypt", "~> 3.1.7"
 gem "haml"
 gem "bootstrap-sass"
 gem "formtastic-bootstrap"
 
 group :development, :test do
+  gem "spring"
+  gem "spring-commands-rspec"
   gem "debugger"
 end
 
