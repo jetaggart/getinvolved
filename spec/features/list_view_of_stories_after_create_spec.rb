@@ -18,6 +18,6 @@ feature "Creating a Story" do
 
     click_on "Create Story"
 
-    expect(page).to have_content "Stories Index"
+    expect(page).to have_content "Story Index"
   end
 end
