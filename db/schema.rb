@@ -14,11 +14,9 @@
 ActiveRecord::Schema.define(version: 20140502211452) do
 
   create_table "stories", force: true do |t|
-    t.text     "description"
-    t.string   "title"
-    t.date     "story_date"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.text   "description"
+    t.string "title"
+    t.date   "story_date"
   end
 
   create_table "users", force: true do |t|

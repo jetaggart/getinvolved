@@ -29,8 +29,9 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.7)
-    bootstrap-sass (3.1.1.1)
+    bourbon (3.2.1)
       sass (~> 3.2)
+      thor
     builder (3.2.2)
     capybara (2.2.1)
       mime-types (>= 1.16)
@@ -57,8 +58,6 @@ GEM
     execjs (2.0.2)
     formtastic (2.2.1)
       actionpack (>= 3.0)
-    formtastic-bootstrap (3.0.0)
-      formtastic (>= 2.2)
     haml (4.0.5)
       tilt
     hike (1.2.3)
@@ -77,6 +76,9 @@ GEM
     mini_portile (0.5.3)
     minitest (5.3.3)
     multi_json (1.9.2)
+    neat (1.5.1)
+      bourbon (>= 3.1)
+      sass (~> 3.2.19)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     polyglot (0.3.4)
@@ -151,14 +153,14 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt (~> 3.1.7)
-  bootstrap-sass
   capybara
   coffee-rails (~> 4.0.0)
   debugger
-  formtastic-bootstrap
+  formtastic
   haml
   jbuilder (~> 2.0)
   jquery-rails
+  neat
   rails (= 4.1.0)
   rspec-rails
   sass-rails (~> 4.0.3)

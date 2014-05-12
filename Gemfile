@@ -12,8 +12,8 @@ gem "turbolinks"
 gem "jbuilder", "~> 2.0"
 gem "bcrypt", "~> 3.1.7"
 gem "haml"
-gem "bootstrap-sass"
-gem "formtastic-bootstrap"
+gem "neat"
+gem "formtastic"
 
 group :development, :test do
   gem "spring"
