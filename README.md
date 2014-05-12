@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jetaggart/getinvolved.svg)](https://travis-ci.org/jetaggart/getinvolved)
+[![Code Climate](https://codeclimate.com/github/jetaggart/getinvolved.png)](https://codeclimate.com/github/jetaggart/getinvolved)
 
 Get Involved
 ===
