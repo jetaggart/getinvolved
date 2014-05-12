@@ -167,7 +167,7 @@ DEPENDENCIES
   debugger
   formtastic
   haml
-  jbuilder (~> 2.0)
+  jbuilder
   jquery-rails
   neat
   rails (= 4.1.1)
