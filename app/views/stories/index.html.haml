@@ -8,8 +8,12 @@
   - for story in @stories
     %tr
       %td
-        = story.title
+        = link_to story.title, story_path(story)
       %td
         = story.description
+
+
+
+        = link_to "Stories Index", stories_path
 
 

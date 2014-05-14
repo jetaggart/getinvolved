@@ -1,15 +1,12 @@
-%h1 Story Index
+= link_to "Back to Stories Index", stories_path
 
-%table.table-bordered.table-striped.table-hover
-  %tr
-    %th Title
-    %th Description
+%h1= @story.title
 
-  - for story in @stories
-    %tr
-      %td
-        = story.title
-      %td
-        = story.description
+%h2= @story.description
+
+%p= @story.created_at
+
+%p= @story.story_date
+
 
 

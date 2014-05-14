@@ -4,8 +4,8 @@ class StoriesController < ApplicationController
   end
 
   def create
-    Story.create!(new_story_params)
-    redirect_to stories_path, :notice => "Story has been created"
+    @story = Story.create!(new_story_params)
+    redirect_to @story, :notice => "Story has been created"
   end
 
   def new_story_params
@@ -14,5 +14,9 @@ class StoriesController < ApplicationController
 
   def index
     @stories = Story.all
+  end
+
+  def show
+    @story = Story.find(params[:id])
   end
 end
