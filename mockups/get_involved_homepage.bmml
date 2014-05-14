@@ -1,0 +1,75 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1274" measuredH="1033" mockupW="1260" mockupH="1024">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="14" y="9" w="1260" h="1024" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Get%20Involved%20%7C%20Make%20a%20Difference%0Ahttp%3A//www.getinvolved.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="968" y="101" w="199" h="-1" measuredW="120" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>search%20stories</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::LinkBar" x="635" y="104" w="-1" h="-1" measuredW="295" measuredH="19" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>-1</selectedIndex>
+        <text>Our%20Story%2C%20About%20Get%20Involved%2C%20Blog%2C%20Sign%20In</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="29" y="101" w="284" h="63" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Title" x="719" y="214" w="-1" h="-1" measuredW="249" measuredH="43" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Want%20to%20help%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Title" x="29" y="214" w="-1" h="-1" measuredW="419" measuredH="43" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Have%20a%20worthy%20project%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="88" y="548" w="-1" h="-1" measuredW="300" measuredH="200" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="738" y="548" w="-1" h="-1" measuredW="300" measuredH="200" zOrder="7" locked="false" isInGroup="-1"/>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::SubTitle" x="719" y="272" w="-1" h="-1" measuredW="339" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Many%20Ways%20to%20Get%20Involved.........</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::SubTitle" x="29" y="272" w="-1" h="-1" measuredW="502" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Create%20a%20Story%20and%20watch%20the%20help%20come%20in........</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Paragraph" x="29" y="314" w="389" h="186" measuredW="200" measuredH="80" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>There%20are%20people%20out%20there%2C%20ready%20and%20willing%20to%20help.%20%20Create%20a%20Story%20and%20tell%20them%20what%20you%20need%20and%20how%20they%20can%20help.%0A%20%0A%5BTips%20for%20Good%20Stories%5D%0A%5BMake%20your%20story%20succeed%5D%0A%5BRules%20for%20Stories%5D%20%0A%5BRunning%20A%20Story%20-%20FAQs%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Paragraph" x="719" y="314" w="389" h="186" measuredW="200" measuredH="80" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>You%20can%20help%20in%20many%20ways%2C%20and%20on%20many%20differnt%20types%20of%20causes..%20%20Set%20up%20your%20preferences%20and%20profile%20to%20make%20it%20happen.%20%20Sign%20up%20to%20be%20able%20to%20create%20stories%2C%20or%20help%20others%20on%20theirs.%0A%20%0A%5BWays%20To%20Get%20Involved%5D%0A%5BSet%20Your%20Preferences%5D%0A%5BTrack%20Your%20Involvement%5D%20%0A%5BHow%20to%20Get%20Involved%20-%20FAQs%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::MenuBar" x="14" y="976" w="1260" h="29" measuredW="648" measuredH="29" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>T%26C%2C%20FAQ%2C%20Donate%20to%20Get%20Involved%2C%20Help%2C%20Facebook%2C%20LinkedIn%2C%20Twitter%2C%20Blog%2C%20Tips%20%26%20Tricks</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::HSplitter" x="609" y="179" w="-1" h="670" measuredW="11" measuredH="100" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::VCurly" x="190" y="349" w="180" h="85" measuredW="180" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <text>Ideas%20on%20site%2C%20but%20may%20be%20after%20login%2C%20or%20through%20other%20navigation.</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::VCurly" x="893" y="365" w="180" h="85" measuredW="180" measuredH="140" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <text>Ideas%20on%20site%2C%20but%20may%20be%20after%20login%2C%20or%20through%20other%20navigation.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
