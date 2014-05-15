@@ -19,5 +19,6 @@ feature "Creating a Story" do
     click_on "Create Story"
 
     expect(page).to have_content "Story has been created"
+    expect(page).to have_content("My Story Title")
   end
 end
