@@ -9,5 +9,6 @@ This is the code for getinvolved.io. Feel free to contribute.
 
 Contribute
 ===
+* [Mockups](https://github.com/jetaggart/getinvolved/tree/master/mockups)
 * [Trello](https://trello.com/b/op5Y08CY/get-involved) - Please ask for access if you'd like to contribute
 * [Use GitHub's Style Guide](https://github.com/styleguide)
