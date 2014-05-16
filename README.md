@@ -5,7 +5,7 @@
 Get Involved
 ===
 
-This is the code for getinvolved.io. Feel free to contribute.
+This is the code for getinvolved.io. Ideas are still flowing; Ask @jetaggart or @adamgoliver.
 
 Contribute
 ===
