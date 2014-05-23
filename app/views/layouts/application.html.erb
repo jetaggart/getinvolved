@@ -8,10 +8,35 @@
 </head>
 <body>
 
-    <% if flash[:notice].present? %>
-        <%= flash[:notice] %>
-    <% end %>
-<%= yield %>
+<nav>
+    <div class="menu-wrapper">
+        <a href="javascript:void(0)" class="logo">
+            <img src="https://raw.github.com/Magnus-G/Random/master/placeholder_logo_1.png" alt="">
+        </a>
+        <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
+        <div class="nav">
+            <ul id="navigation-menu">
+                <li class="nav-link"><a href="javascript:void(0)">Stories</a></li>
+                <li class="nav-link"><a href="javascript:void(0)">Contributors</a></li>
+            </ul>
+        </div>
+        <div class="navigation-tools">
+            <a href="javascript:void(0)" class="sign-up">Get Involved</a>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <div id="flash">
+        <% if flash.any? %>
+            <% flash.each do |name, msg| %>
+                <div><%= msg %></div>
+            <% end %>
+        <% end %>
+    </div>
+
+    <%= yield %>
+</main>
 
 </body>
 </html>
