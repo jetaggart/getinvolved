@@ -9,7 +9,7 @@ class StoriesController < ApplicationController
   end
 
   def new_story_params
-    params.require(:story).permit(:title, :description, :story_date)
+    params.require(:story).permit(:title, :title, :story_date)
   end
 
   def index

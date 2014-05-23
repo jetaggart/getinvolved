@@ -25,4 +25,5 @@ group :test do
   gem "codeclimate-test-reporter", require: nil
   gem "rspec-rails"
   gem "capybara"
+  gem "launchy"
 end

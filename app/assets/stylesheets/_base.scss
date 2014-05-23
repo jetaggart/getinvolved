@@ -1,4 +1,4 @@
 main {
   @include outer-container;
-  padding-top: $base-line-height;
+  margin-top: $base-line-height;
 }

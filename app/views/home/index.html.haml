@@ -1,6 +1,11 @@
+.hero
+  .hero-inner
+    %a.hero-logo{href: ""}
+      %img{alt: "", src: "https://raw.github.com/Magnus-G/Random/master/placeholder_logo_1.png"}/
+    .hero-copy
+      %h1= t('.hero.title')
+      %p= t('.hero.description')
+    %button= t('.hero.learn_more')
+
 = link_to "Begin A Story", new_user_path
-
-<br>
-<br>
-
 = link_to "Stories Index", stories_path
