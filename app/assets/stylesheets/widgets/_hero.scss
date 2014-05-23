@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  margin-top: -$base-line-height;
   padding-bottom: 4em;
 
   .hero-logo img {
@@ -23,9 +22,8 @@
     color: $hero-color;
 
     button {
-      @include button(simple, $base-accent-color);
-      font-size: $base-font-size;
-      outline: none;
+      font-size: 2em;
+      padding: .5em 1em;
     }
 
     .hero-copy {

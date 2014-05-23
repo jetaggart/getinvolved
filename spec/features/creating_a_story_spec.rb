@@ -4,7 +4,7 @@ feature "Creating a Story" do
   scenario "a visitor creating a story" do
     visit root_path
 
-    click_on "Begin A Story"
+    click_on "Begin a Story"
 
     fill_in "Name", :with => "Johnny Appleseed"
     fill_in "Email", :with => "johnny@appleseed.com"
