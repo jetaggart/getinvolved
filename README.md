@@ -9,4 +9,4 @@ Contribute
 ===
 * [Mockups](https://github.com/jetaggart/getinvolved/tree/master/mockups)
 * [Trello](https://trello.com/b/lE4xTkfi/get-involved) - Please ask for access if you'd like to contribute
-* [Use GitHub's Style Guide](https://github.com/styleguide)
+* [Style Guide](https://github.com/bbatsov/clojure-style-guide)
