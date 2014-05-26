@@ -15,3 +15,4 @@
   [& {:keys [force] :or {force false}}]
   (when (zero? (swap! browser-count (if force (constantly 0) dec)))
     (quit)))
+

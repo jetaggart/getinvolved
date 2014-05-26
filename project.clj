@@ -21,6 +21,7 @@
    [korma "0.3.1"]
    [cljs-ajax "0.2.4"]
    [selmer "0.6.6"]
+   [kerodon "0.3.0"]
    [lib-noir "0.8.3"]]
 
   :cljsbuild {:builds
