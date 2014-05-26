@@ -35,17 +35,14 @@
          :destroy getinvolved.handler/destroy}
   :ragtime {:migrations ragtime.sql.files/migrations,
             :database   "jdbc:postgresql://localhost/getinvolved?user=db_user_name_here&password=db_user_password_here"}
-  :profiles {:uberjar {:aot :all},
-             :production
-                      {:ring
-                        {:open-browser? false, :stacktraces? false, :auto-reload? false}},
-             :dev
-                      {:dependencies
-                            [[org.clojure/core.cache "0.6.3"]
-                             [ring/ring-devel "1.2.2"]
-                             [clj-webdriver/clj-webdriver "0.6.1"]
-                             [ring-mock "0.1.5"]],
-                       :env {:dev true}}}
+  :profiles {:uberjar    {:aot :all},
+             :production {:ring
+                           {:open-browser? false, :stacktraces? false, :auto-reload? false}},
+             :dev        {:dependencies
+                               [[org.clojure/core.cache "0.6.3"]
+                                [ring/ring-devel "1.2.2"]
+                                [ring-mock "0.1.5"]],
+                          :env {:dev true}}}
   :url "http://example.com/FIXME"
   :plugins [[lein-ring "0.8.10"]
             [lein-environ "0.5.0"]

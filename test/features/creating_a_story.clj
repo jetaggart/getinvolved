@@ -2,9 +2,7 @@
   (:require [clojure.test :refer :all]
             [kerodon.core :refer :all]
             [kerodon.test :refer :all]
-            [getinvolved.handler :refer [app]]
-            [getinvolved.browser :as browser]
-            [clj-webdriver.taxi :as taxi]))
+            [getinvolved.handler :refer [app]]))
 
 (deftest test-creating-a-story
   (testing "Creating stories"
