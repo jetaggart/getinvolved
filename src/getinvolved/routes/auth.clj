@@ -57,19 +57,19 @@
   (session/clear!)
   (resp/redirect "/"))
 
-(defroutes auth-routes
-  (GET "/register" []
-       (register))
-
-  (POST "/register" [id pass pass1]
-        (handle-registration id pass pass1))
-
-  (GET "/profile" [] (profile))
-  
-  (POST "/update-profile" {params :params} (update-profile params))
-  
-  (POST "/login" [id pass]
-        (handle-login id pass))
-
-  (GET "/logout" []
-        (logout)))
+;(defroutes auth-routes
+;  (GET "/register" []
+;       (register))
+;
+;  (POST "/register" [id pass pass1]
+;        (handle-registration id pass pass1))
+;
+;  (GET "/profile" [] (profile))
+;
+;  (POST "/update-profile" {params :params} (update-profile params))
+;
+;  (POST "/login" [id pass]
+;        (handle-login id pass))
+;
+;  (GET "/logout" []
+;        (logout)))

@@ -6,11 +6,11 @@
             [compojure.route :as route]
             [taoensso.timbre :as timbre]
             [taoensso.timbre.appenders.rotor :as rotor]
-            [selmer.parser :as parser]
             [environ.core :refer [env]]
-            [getinvolved.routes.auth :refer [auth-routes]]
+            ;[getinvolved.routes.auth :refer [auth-routes]]
             [getinvolved.db.schema :as schema]
-            [getinvolved.routes.cljsexample :refer [cljs-routes]]))
+            ;[getinvolved.routes.cljsexample :refer [cljs-routes]]
+            ))
 
 (defroutes app-routes
            (route/resources "/")
@@ -25,14 +25,13 @@
                        :fn                    rotor/appender-fn})
   (timbre/set-config! [:shared-appender-config :rotor]
                       {:path "getinvolved.log", :max-size (* 512 1024), :backlog 10})
-  (if (env :dev) (parser/cache-off!))
   (timbre/info "getinvolved started successfully"))
 
 (defn destroy []
   (timbre/info "getinvolved is shutting down..."))
 
 (def app
-  (app-handler [cljs-routes auth-routes home-routes app-routes]
+  (app-handler [home-routes app-routes]
                :middleware [middleware/template-error-page middleware/log-request]
                :access-rules []
                :formats [:json-kw :edn]))

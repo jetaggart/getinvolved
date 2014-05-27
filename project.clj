@@ -20,14 +20,13 @@
                                 com.sun.jmx/jmxri]]
    [korma "0.3.1"]
    [cljs-ajax "0.2.4"]
-   [selmer "0.6.6"]
+   [hiccup "1.0.5"]
    [kerodon "0.3.0"]
    [lib-noir "0.8.3"]]
 
   :cljsbuild {:builds
                [{:source-paths ["src-cljs"],
-                 :compiler
-                               {:pretty-print  false,
+                 :compiler     {:pretty-print  false,
                                 :output-to     "resources/public/js/site.js",
                                 :optimizations :advanced}}]}
   :ring {:handler getinvolved.handler/app,

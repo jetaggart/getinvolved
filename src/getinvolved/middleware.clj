@@ -1,6 +1,6 @@
 (ns getinvolved.middleware
   (:require [taoensso.timbre :as timbre]
-            [selmer.parser :as parser]
+            [hiccup.core :refer [html]]
             [environ.core :refer [env]]))
 
 (defn log-request [handler]
@@ -19,6 +19,6 @@
           (let [{:keys [type error-template] :as data} (ex-data ex)]
             (if (= :selmer-validation-error type)
               {:status 500
-               :body (parser/render error-template data)}
+               :body (html [:div "could not find: 500"])}
               (throw ex))))))
     handler))
