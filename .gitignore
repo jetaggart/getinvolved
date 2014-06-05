@@ -12,3 +12,4 @@ pom.xml
 *.iml
 .nrepl-port
 **/.sass-cache/
+.DS_Store
