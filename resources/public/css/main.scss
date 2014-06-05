@@ -1,7 +1,7 @@
-@import 'vendor/normalize';
-@import 'vendor/bourbon/bourbon';
-@import "vendor/bitters/bitters";
-@import 'vendor/neat/neat';
+@import '../../../vendor/css/normalize';
+@import '../../../vendor/css/bourbon/bourbon';
+@import "../../../vendor/css/bitters/bitters";
+@import '../../../vendor/css/neat/neat';
 
 @import "base";
 @import "widgets/nav";
