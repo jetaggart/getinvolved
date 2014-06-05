@@ -8,5 +8,5 @@
   (testing "Creating stories"
     (-> (session app)
         (visit "/")
-        (has (regex? "(?is).*Welcome to getinvolved.*")
+        (has (regex? "(?is).*Get involved.*")
              "Has a title"))))
