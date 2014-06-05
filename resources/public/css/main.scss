@@ -1,6 +1,6 @@
-@import 'bourbon/bourbon';
-@import "bitters/bitters";
-@import 'neat/neat';
+@import 'vendor/bourbon/bourbon';
+@import "vendor/bitters/bitters";
+@import 'vendor/neat/neat';
 
 section {
   @include outer-container;
