@@ -4,7 +4,7 @@
             [getinvolved.util :as util]))
 
 (defn home-page []
-  (layout/render [:p "Get involved"] [:p "something else"]))
+  (layout/render [:p "something"]))
 
 (defroutes home-routes
   (GET "/" [] (home-page)))

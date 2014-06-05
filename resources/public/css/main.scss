@@ -1,11 +1,9 @@
+@import 'vendor/normalize';
 @import 'vendor/bourbon/bourbon';
 @import "vendor/bitters/bitters";
 @import 'vendor/neat/neat';
 
-section {
-  @include outer-container;
-}
-
-ul {
-  @include span-columns(8);
-}
+@import "base";
+@import "widgets/nav";
+@import "widgets/hero";
+@import "widgets/bullets";

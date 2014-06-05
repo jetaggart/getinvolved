@@ -1,0 +1,10 @@
+main {
+  @include outer-container;
+  margin-top: $base-line-height;
+}
+
+section {
+  @include outer-container;
+  margin-top: $base-line-height;
+}
+
